@@ -10,17 +10,41 @@ A full-stack marketing automation platform for campaign management, audience seg
 - **Auth:** JWT (JSON Web Tokens)
 
 ## Features
+### Authentication
+- User Registration & Login
+- Secure JWT-based authentication
 
-- User authentication (register/login)
-- Campaign management (Email, SMS, Push, Social)
-- Contact management with search and unsubscribe
-- Audience segmentation with dynamic filters
-- Email template builder with HTML editor and preview
-- Analytics dashboard with charts
+### Campaign Management
+- Create campaigns (Email, SMS, Push, Social Media)
+- Budget tracking
+- Scheduling & frequency control
+- Campaign performance tracking (opens, clicks, conversions)
+
+### Audience Segmentation
+- Dynamic segment builder
+- Custom filters (demographics, behavior)
+- Segment size preview
+- Export segment data
+
+###  Contact Management
+- Centralized contact database
+- Custom fields support
+- Unsubscribe handling
+
+### Email Marketing
+- Email template builder (HTML support)
+- Responsive preview
+- Pre-built templates
+
+### Analytics Dashboard
+- Campaign performance metrics
+- Charts & visual insights
+- Real-time tracking
+  
+```
 
 ## Project Structure
 
-```
 marketing-crm/
 ├── client/          # React frontend
 │   └── src/
@@ -32,7 +56,6 @@ marketing-crm/
     ├── controllers/ # Business logic
     ├── routes/      # API routes
     └── middleware/  # Auth middleware
-```
 
 ## Setup Instructions
 
@@ -49,7 +72,6 @@ npm install
 
 Create a `.env` file in the `server` folder (see `.env.example`):
 
-```env
 PORT=5000
 MONGO_URI=mongodb+srv://<user>:<pass>@cluster.mongodb.net/marketing-crm
 JWT_SECRET=your_secret_key
@@ -58,7 +80,7 @@ EMAIL_PORT=587
 EMAIL_USER=your@gmail.com
 EMAIL_PASS=your_app_password
 NODE_ENV=development
-```
+
 
 ```bash
 npm run dev
@@ -105,3 +127,16 @@ Frontend runs on `http://localhost:5173`
 - **campaigns** - Campaign definitions and metrics
 - **emailtemplates** - Reusable HTML email templates
 - **analyticsevents** - Open/click/bounce tracking events
+
+## Key Highlights
+
+- Modular backend architecture
+- Clean UI with responsive design
+- Real-time analytics tracking
+- Scalable structure for future enhancements
+
+
+
+
+
+
