@@ -130,7 +130,7 @@ Frontend runs on `http://localhost:5173`
 
 ## ER Diagram
 
-![ER Diagram](./er-diagram.png)
+![ER Diagram](./er-diagram.jpeg)
 
 ## Key Highlights
 
