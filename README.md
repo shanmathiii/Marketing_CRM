@@ -128,15 +128,14 @@ Frontend runs on `http://localhost:5173`
 - **emailtemplates** - Reusable HTML email templates
 - **analyticsevents** - Open/click/bounce tracking events
 
+## ER Diagram
+
+![ER Diagram](./er-diagram.png)
+
 ## Key Highlights
 
 - Modular backend architecture
 - Clean UI with responsive design
 - Real-time analytics tracking
 - Scalable structure for future enhancements
-
-
-
-
-
-
+  
